@@ -1,0 +1,13 @@
+{
+  "plugins": ["transform-runtime"],
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["chrome >= 52"]
+      },
+      "useBuiltIns": true
+    }],
+    "react",
+    "stage-2"
+  ]
+}
